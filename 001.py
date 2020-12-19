@@ -18,7 +18,6 @@ if __name__ == "__main__":
     for i in range(1, 1000):
         if multiple_of(i, 3) or multiple_of(i, 5):
             total += i
-            print(i)
 
     print(total)
 
