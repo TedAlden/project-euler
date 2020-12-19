@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     while number < factorial(20):
         number += 2520
-        if all(number % i == 0 for i in list(range(2, 20))):
+        if all(number % i == 0 for i in range(2, 20)):
             break
 
     print(number)
